@@ -1,3 +1,6 @@
+// 에디터 img 추출 정규식
+// let src = content.match(new RegExp('src=\\"data:image\\/([a-zA-Z]*);base64,([^\\"]*)\\"', 'g'));
+
 function compressImage (data) {
     if (data.type === 'image/gif') {
         return data;
